@@ -1,0 +1,8 @@
+5 Ruby data type
+1. string
+2. fixnum
+3. float
+4. boolean
+5. array
+
+
