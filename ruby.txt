@@ -5,4 +5,4 @@
 4. boolean
 5. array
 
-
+Instance Variables are variables belonging to an instance of a class, while class variables belong to the class and are shared by all its instances.
