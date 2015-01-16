@@ -23,3 +23,14 @@ harry['occupation'] => 'Developer'
 
 harry.fetch('languages') => ['Ruby', 'JavaScript']
 
+harry['github'] = 'harryCodes'
+
+{ 'age' => 21, 'occupation' => 'Developer', 'languages' => ['Ruby', 'JavaScript'], 'twitter' => 'harryCodes' }
+
+harry.keys => [ 'age', 'occupation', 'languages' ]
+
+harry.values => [ 21, 'Developer', ['Ruby', 'JavaScript'] ]
+
+{"age"=>21}
+
+
