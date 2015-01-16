@@ -1,0 +1,1 @@
+GIT: is an open source version control system, originally written to manage the linux kernel development. It uses a distributed version control architecture. 
