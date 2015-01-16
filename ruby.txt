@@ -9,3 +9,10 @@ Instance Variables are variables belonging to an instance of a class, while clas
 
 
 The method name should start with a lower-case letter and by convention words should be simple case and joined with an underscore. 
+
+
+'String2String2'
+
+:string1 << :string2 
+this will return an undefined method because symbols are immutable
+the shovel method  is not defined for this object 
