@@ -33,4 +33,9 @@ harry.values => [ 21, 'Developer', ['Ruby', 'JavaScript'] ]
 
 {"age"=>21}
 
+harry.inject({}) do |new_harry, (k,v)| 
+new_harry[k] = v 
+new_harry
+end
+
 
