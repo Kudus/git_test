@@ -39,3 +39,16 @@ new_harry
 end
 
 
+['bananas', 'apples', 'pears', 'avocados'].select{|fruit| fruit[0] == 'a'}
+
+['mathilda', 'jeremy', 'mark', 'oli', 'idris', 'john', 'ethan', 'iain', 'oscar', 'alice', 'uma'].select {|ga_staff| ga_staff[0] =~ /[aeiou]/ } 
+=> ["oli", "idris", "ethan", "iain", "oscar", "alice", "uma"]
+
+
+['a', 'b', nil, nil, 'c', nil, 'true', []].compact
+=> ["a", "b", "c", "true", []]
+
+['tiger', 'monkey', 'elephant', 'lion'].map{|animal| animal.reverse }
+
+=> ["regit", "yeknom", "tnahpele", "noil"]
+
