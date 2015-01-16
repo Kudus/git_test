@@ -17,7 +17,9 @@ The method name should start with a lower-case letter and by convention words sh
 this will return an undefined method because symbols are immutable
 the shovel method  is not defined for this object
 
-[:sausage, :pear, 3, [1, 2, 3], {germany: 'Berlin}][2]
+[:sausage, :pear, 3, [1, 2, 3], {germany: 'Berlin'}][2]
+=> 3
+
 
 harry['occupation'] => 'Developer'
 
