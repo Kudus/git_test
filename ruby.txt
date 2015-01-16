@@ -52,3 +52,24 @@ end
 
 => ["regit", "yeknom", "tnahpele", "noil"]
 
+ a = [1, 2, 3, 4, 5, 6, 7]
+=> [1, 2, 3, 4, 5, 6, 7]
+[28] pry(main)> a.shift(3)
+=> [1, 2, 3]
+[29] pry(main)> a
+=> [4, 5, 6, 7]
+
+['dangermouse', 'penfold', 'greenback', 'mafiosa', 'nero'].sort {|a, b| a[-1] <=> b[-1] }
+=> ["mafiosa", "penfold", "dangermouse", "greenback", "nero"]
+
+[1, 2, 3].push [1, 2, 3]
+=> [1, 2, 3, [1, 2, 3]]
+
+[['first_key', 1], ['second_key', 2], ['third_key', 3]].to_h 
+=> {"first_key"=>1, "second_key"=>2, "third_key"=>3}
+
+{ 'c' => 'o', 'n' => 'f', 'u' => 's', 'e' => 'd' }.invert
+=> {"o"=>"c", "f"=>"n", "s"=>"u", "d"=>"e"}
+
+
+
